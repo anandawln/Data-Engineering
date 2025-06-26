@@ -8,7 +8,7 @@ print("DataFrame Preview:")
 print(df.head())
 print(f"Number of rows to be inserted: {len(df)}")
 
-# ambil credential 
+# retrieving credentials 
 with open('/home/anandawln/my-airflow-project/credential.json') as f:
     credential = json.load(f)
 
